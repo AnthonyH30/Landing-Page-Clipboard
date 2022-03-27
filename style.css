@@ -65,6 +65,7 @@ body{
 
 .ciano{
     background-color: hsl(171, 66%, 44%);
+    transition: all 0.2s ease-in;
 }
 
 .ciano:hover{
@@ -74,6 +75,7 @@ body{
 
 .purple{
     background-color:hsl(233, 100%, 69%);
+    transition: all 0.2s ease-in;
 }
 
 .purple:hover{
@@ -245,6 +247,7 @@ body{
 
 .footer-text{
     margin-left: 70px;
+    transition: all 0.2s ease-in;
 }
 
 .footer-text:hover{
@@ -260,6 +263,7 @@ body{
 
 .fa-brands{
     font-size: 1.5rem;
+    transition: all 0.2s ease-in;
 }
 
 .fa-brands:hover{
