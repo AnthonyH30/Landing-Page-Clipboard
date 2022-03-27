@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 62.5%;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1 img{
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.content1 .title{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.content1 .text{
+    color:hsl(201, 11%, 66%);
+    font-size: 1.2rem;
+    width: 670px;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    width: 175px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.ciano{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.ciano:hover{
+    background-color: hsl(171, 66%, 55%);
+    cursor: pointer;
+}
+
+.purple{
+    background-color:hsl(233, 100%, 69%);
+}
+
+.purple:hover{
+    background-color: hsl(233, 100%, 75%);
+    cursor: pointer;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 750px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.text2{
+    color:hsl(201, 11%, 66%);
+    font-size: 1rem;
+    width: 640px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.computer-text{
+    display: flex;
+    gap: 80px;
+    padding: 0px 1%;
+}
+
+.image img{
+    width: 650px;
+}
+
+.text-computer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px 0px;
+    text-align: left;
+}
+
+.itens-text{
+    max-width: 270px;
+}
+
+.itens-text h2{
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.itens-text{
+    font-size: 0.8rem;
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5rem;
+}
+
+.section-3{
+    width: 100vw;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 img{
+    width: 800px;
+}
+
+.section-4{
+    width: 100vw;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item{
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.item img{
+    margin-bottom: 30px;
+    width: 35px;
+}
+
+.item-title{
+    font-size: 1.2rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.item-description{
+    font-size: 0.8rem;
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5rem;
+}
+
+.section-5{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.section-5 img{
+    width: 130px;
+}
+
+.section-6{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12%;
+    background-color: hsl(201, 11%, 95%);
+}
+
+.footer img{
+    width: 50px;
+}
+
+.footer-texts{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    max-width: 500px;
+    flex-wrap: wrap;
+    color:hsl(201, 11%, 43%);
+    gap: 20px;
+}
+
+.footer-text{
+    margin-left: 70px;
+}
+
+.footer-text:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    color:hsl(201, 11%, 43%);
+}
+
+.fa-brands{
+    font-size: 1.5rem;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
